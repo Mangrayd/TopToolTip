@@ -2,11 +2,25 @@
 <html>
 <head>
     <title>TopToolTip</title>
+
+    <link href="main.css" rel="stylesheet"/>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+
 </head>
 <body>
-    <p>test p </p>
-    <p>new test p </p>
-    <p>third test p </p>
+    <section id="main-content">
 
+        <div class="block-right">Block with tooltip in the end <span class="tooltip" rel="tooltip" title="cas dfas dfasd fasdf">?</span></div>
+        <div class="block-left"><span class="tooltip" rel="tooltip" title="cas dfas dfasdasd fasd fasdf asdf asdf asdf asdfad fasdf">?</span>Block with tooltip in the begin</div>
+
+        <div class="block-left">Block with tooltip in the end <span class="tooltip" rel="tooltip" title="cas dfas dfasd fasdf">?</span></div>
+        <div class="block-right"><span class="tooltip" rel="tooltip" title="cas dfas dfasdasd fasd fasdf asdf asdf asdf asdfad fasdf">?</span>Block with tooltip in the begin</div>
+
+    </section>
+    <script src="TopToolTip.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
