@@ -21,6 +21,12 @@ Create HTML code like this
 ```
 <div>the line needs clarification <span rel="tooltip" title="text of the hint">?</span></div>
 ```
+and call TopToolTip with options you need
+```
+<script>
+    ToolTip(null, {speed:200, hintMaxWidth:100, hintClass: 'hint'});
+</script>
+```
 that's all
 
 ## API
