@@ -1,4 +1,4 @@
-# TopToolTip
+# TopToolTip (module)
 
 ## Installation
 Add jQuery into your project
